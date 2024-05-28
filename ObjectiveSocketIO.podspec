@@ -16,10 +16,7 @@ ObjectiveSocketIO is a library that provides an easy way to use Socket.IO with O
   s.ios.deployment_target = '17.5'
   s.swift_version = '5.10'
 
-  s.source_files = 'Source/**/*.swift','Source/*.swift', 'Source/**/*.h', 'Source/*.h'
-  s.public_header_files = 'Source/**/*.h', 'Source/*.h'
-  # s.source_files = 'ObjectiveSocketIO/Classes/**/*'
-  # s.public_header_files = 'ObjectiveSocketIO/Classes/**/*.h'
+  s.source_files = 'Source/**/*.swift'
 
   # s.resource_bundles = {
   #   'ObjectiveSocketIO' => ['ObjectiveSocketIO/Assets/*.png']
