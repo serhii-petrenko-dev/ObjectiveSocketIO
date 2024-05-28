@@ -1,0 +1,15 @@
+{
+  "" : {
+    "const-values" : "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Pods.build/Release-iphoneos/ObjectiveSocketIO.build/Objects-normal/arm64/ObjectiveSocketIO-master.swiftconstvalues",
+    "dependencies" : "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Pods.build/Release-iphoneos/ObjectiveSocketIO.build/Objects-normal/arm64/ObjectiveSocketIO-master.d",
+    "diagnostics" : "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Pods.build/Release-iphoneos/ObjectiveSocketIO.build/Objects-normal/arm64/ObjectiveSocketIO-master.dia",
+    "emit-module-dependencies" : "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Pods.build/Release-iphoneos/ObjectiveSocketIO.build/Objects-normal/arm64/ObjectiveSocketIO-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Pods.build/Release-iphoneos/ObjectiveSocketIO.build/Objects-normal/arm64/ObjectiveSocketIO-master-emit-module.dia",
+    "swift-dependencies" : "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Pods.build/Release-iphoneos/ObjectiveSocketIO.build/Objects-normal/arm64/ObjectiveSocketIO-master.swiftdeps"
+  },
+  "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/ObjectiveSocketIO/Classes/SocketIO.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/ObjectiveSocketIO.build/Objects-normal/arm64/SocketIO.o",
+    "llvm-bc" : "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Pods.build/Release-iphoneos/ObjectiveSocketIO.build/Objects-normal/arm64/SocketIO.bc",
+    "object" : "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Pods.build/Release-iphoneos/ObjectiveSocketIO.build/Objects-normal/arm64/SocketIO.o"
+  }
+}

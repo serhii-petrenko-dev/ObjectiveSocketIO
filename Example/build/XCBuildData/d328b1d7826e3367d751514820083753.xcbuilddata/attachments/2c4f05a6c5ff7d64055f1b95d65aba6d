@@ -1,0 +1,5 @@
+ extern const unsigned char ObjectiveSocketIOVersionString[];
+ extern const double ObjectiveSocketIOVersionNumber;
+
+ const unsigned char ObjectiveSocketIOVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:ObjectiveSocketIO  PROJECT:Pods-1" "\n";
+ const double ObjectiveSocketIOVersionNumber __attribute__ ((used)) = (double)1.;

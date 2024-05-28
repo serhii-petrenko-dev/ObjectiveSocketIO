@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Release-iphoneos/ObjectiveSocketIO/ObjectiveSocketIO.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Pods.build/Release-iphoneos/ObjectiveSocketIO.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Release-iphoneos/ObjectiveSocketIO/ObjectiveSocketIO.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "ObjectiveSocketIO-Swift.h",
+      'external-contents': "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Pods.build/Release-iphoneos/ObjectiveSocketIO.build/unextended-interface-header.h",
+    }]
+    }]
+}

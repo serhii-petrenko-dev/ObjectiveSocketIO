@@ -1,0 +1,6 @@
+framework module ObjectiveSocketIO {
+  umbrella header "ObjectiveSocketIO-umbrella.h"
+
+  export *
+  module * { export * }
+}

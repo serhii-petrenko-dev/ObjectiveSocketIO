@@ -1,0 +1,30 @@
+{
+  "name": "ObjectiveSocketIO",
+  "version": "0.1.0",
+  "summary": "A library for using Socket.IO with Objective-C.",
+  "description": "ObjectiveSocketIO is a library that provides an easy way to use Socket.IO with Objective-C. It is designed to be simple to use and integrate into any Objective-C project, enabling real-time communication with a server.",
+  "homepage": "https://github.com/serhii-petrenko-dev/ObjectiveSocketIO",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Serhii Petrenko": "serhii.petrenko.dev@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/serhii-petrenko-dev/ObjectiveSocketIO.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "17.5"
+  },
+  "swift_versions": "5.10",
+  "source_files": "ObjectiveSocketIO/Classes/**/*",
+  "public_header_files": "ObjectiveSocketIO/Classes/**/*.h",
+  "dependencies": {
+    "Socket.IO-Client-Swift": [
+      "~> 15.2.0"
+    ]
+  },
+  "swift_version": "5.10"
+}

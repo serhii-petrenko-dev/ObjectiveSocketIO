@@ -1,0 +1,10 @@
+framework module ObjectiveSocketIO {
+  umbrella header "ObjectiveSocketIO-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ObjectiveSocketIO.__Swift {
+  exclude header "ObjectiveSocketIO-Swift.h"
+}

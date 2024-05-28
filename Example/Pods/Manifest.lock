@@ -1,0 +1,27 @@
+PODS:
+  - ObjectiveSocketIO (0.1.0):
+    - Socket.IO-Client-Swift (~> 15.2.0)
+  - Socket.IO-Client-Swift (15.2.0):
+    - Starscream (~> 3.1)
+  - Starscream (3.1.1)
+
+DEPENDENCIES:
+  - ObjectiveSocketIO (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Socket.IO-Client-Swift
+    - Starscream
+
+EXTERNAL SOURCES:
+  ObjectiveSocketIO:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ObjectiveSocketIO: a16d03588ea16a777e2b5e1e7401ec182fa29bca
+  Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+
+PODFILE CHECKSUM: 92ac7afd9e354f4952d7ffda770834e5872edde8
+
+COCOAPODS: 1.15.2

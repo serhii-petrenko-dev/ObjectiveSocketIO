@@ -1,0 +1,12 @@
+Target dependency graph (5 targets)
+Target 'Pods-ObjectiveSocketIO_Tests' in project 'Pods'
+➜ Explicit dependency on target 'Pods-ObjectiveSocketIO_Example' in project 'Pods'
+Target 'Pods-ObjectiveSocketIO_Example' in project 'Pods'
+➜ Explicit dependency on target 'ObjectiveSocketIO' in project 'Pods'
+➜ Explicit dependency on target 'Socket.IO-Client-Swift' in project 'Pods'
+➜ Explicit dependency on target 'Starscream' in project 'Pods'
+Target 'ObjectiveSocketIO' in project 'Pods'
+➜ Explicit dependency on target 'Socket.IO-Client-Swift' in project 'Pods'
+Target 'Socket.IO-Client-Swift' in project 'Pods'
+➜ Explicit dependency on target 'Starscream' in project 'Pods'
+Target 'Starscream' in project 'Pods' (no dependencies)

@@ -1,0 +1,58 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e980108d86155e1d789ed28329a6c8491c1"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9893998975240e7c80d0ab6c3e220e7828"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e981def53c954622bdf1b36587167258313"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98f0fd34c8715c486a48c05ff91eadf764"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e989eef64033d2a36546e801665ce04331a"
+    }
+  ],
+  "containerPath" : "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/Pods/Pods.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/xps/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/xps/Library/Developer/Xcode/DerivedData/Pods-ewjqsmdspxvcwdfrypycrwtfokku/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/xps/Library/Developer/Xcode/DerivedData/Pods-ewjqsmdspxvcwdfrypycrwtfokku/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

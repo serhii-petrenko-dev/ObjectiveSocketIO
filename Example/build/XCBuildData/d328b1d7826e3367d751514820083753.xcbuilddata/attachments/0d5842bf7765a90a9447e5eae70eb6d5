@@ -1,0 +1,30 @@
+{
+  "" : {
+    "const-values" : "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Starscream-master.swiftconstvalues",
+    "dependencies" : "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Starscream-master.d",
+    "diagnostics" : "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Starscream-master.dia",
+    "emit-module-dependencies" : "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Starscream-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Starscream-master-emit-module.dia",
+    "swift-dependencies" : "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Starscream-master.swiftdeps"
+  },
+  "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/Pods/Starscream/Sources/Starscream/Compression.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Compression.o",
+    "llvm-bc" : "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Compression.bc",
+    "object" : "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/Compression.o"
+  },
+  "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/Pods/Starscream/Sources/Starscream/SSLClientCertificate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/SSLClientCertificate.o",
+    "llvm-bc" : "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/SSLClientCertificate.bc",
+    "object" : "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/SSLClientCertificate.o"
+  },
+  "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/Pods/Starscream/Sources/Starscream/SSLSecurity.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/SSLSecurity.o",
+    "llvm-bc" : "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/SSLSecurity.bc",
+    "object" : "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/SSLSecurity.o"
+  },
+  "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/Pods/Starscream/Sources/Starscream/WebSocket.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/WebSocket.o",
+    "llvm-bc" : "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/WebSocket.bc",
+    "object" : "/Users/xps/Desktop/Sample/KMM/screenmeet-live/Cocoa/ObjectiveSocketIO/Example/build/Pods.build/Release-iphoneos/Starscream.build/Objects-normal/arm64/WebSocket.o"
+  }
+}
