@@ -73,11 +73,13 @@ public class SocketIO: NSObject {
   }
   
   @objc
-  public func on(event: String, action: @escaping (String) -> Void) {
+  public func on(event: String, action: @escaping (Array<Any>) -> Void) {
     socket.on(event) { data, emitter in
-      let jsonData = try! JSONSerialization.data(withJSONObject: data[0], options: .prettyPrinted)
-      let jsonString = String(data: jsonData, encoding: .utf8)!
-      let _ = action(jsonString)
+        if !data.isEmpty {
+          action(data)
+        } else {
+          action([])
+        }
     }
   }
   
