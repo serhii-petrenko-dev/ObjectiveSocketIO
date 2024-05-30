@@ -36,6 +36,7 @@ public class SocketIO: NSObject {
   @objc
   public init(
     endpoint: String,
+    namespace: String = "/",
     queryParams: [String: Any]?,
     transport: SocketIOTransport
   ) {
@@ -51,10 +52,9 @@ public class SocketIO: NSObject {
       configuration.insert(.forcePolling(true))
     case .undefined: do {}
     }
-    
-    socketManager = SocketManager(socketURL: URL(string: endpoint)!,
-                                  config: configuration)
-    socket = socketManager.defaultSocket
+
+    socketManager = SocketManager(socketURL: URL(string: endpoint)!, config: configuration)
+    socket = socketManager.socket(forNamespace: namespace)
   }
   
   @objc

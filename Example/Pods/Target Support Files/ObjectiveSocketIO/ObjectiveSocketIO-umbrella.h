@@ -10,8 +10,5 @@
 #endif
 #endif
 
-#import "ObjectiveSocketIO.h"
-
 FOUNDATION_EXPORT double ObjectiveSocketIOVersionNumber;
 FOUNDATION_EXPORT const unsigned char ObjectiveSocketIOVersionString[];
-

@@ -41,7 +41,6 @@
 		A52FDC38D776112A195D2E6D55B18CC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A5A6D9AFB541406EEEB8CCB3FBD878E3 /* SocketRawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A48E0E40BDA283C26EACA2B61B2919 /* SocketRawView.swift */; };
 		ABEF6C8B171E48F9100611BEA3EC3C16 /* SocketIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF927F1F88283A4967943AB1BFEDD73 /* SocketIO.swift */; };
-		BEF3DECD2C05D80400671F19 /* ObjectiveSocketIO.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF3DECC2C05D80400671F19 /* ObjectiveSocketIO.h */; };
 		BF645A8643CFC08AD1EF0D41BF811B5B /* Socket.IO-Client-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F37C29DB74FC083DFF1E45FD1C6D709E /* Socket.IO-Client-Swift-dummy.m */; };
 		BFAF3C3A33F481122E4D92984624DC22 /* SocketIOStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709468B11EB3826ED8EA9AFE35DE4662 /* SocketIOStatus.swift */; };
 		C3987EB61755866A75E8764E702657F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -160,7 +159,6 @@
 		B660B5209235C9F283EF0A1FB8555721 /* SocketExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketExtensions.swift; path = Source/SocketIO/Util/SocketExtensions.swift; sourceTree = "<group>"; };
 		B75142E1CD9149E260244F9E958DB508 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BA4A4CB27321FE07384EF2EA0E5F21BD /* SocketEngineClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineClient.swift; path = Source/SocketIO/Engine/SocketEngineClient.swift; sourceTree = "<group>"; };
-		BEF3DECC2C05D80400671F19 /* ObjectiveSocketIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveSocketIO.h; sourceTree = "<group>"; };
 		C2856AD18F6A19C24A80D2422799B511 /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Source/SocketIO/Util/SSLSecurity.swift; sourceTree = "<group>"; };
 		D61D7ADCC68126D5E0A1C9BD15AB3702 /* Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Sources/Starscream/Compression.swift; sourceTree = "<group>"; };
 		D897E2CF92E19CD14FABCCB0D38B9471 /* Pods-ObjectiveSocketIO_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ObjectiveSocketIO_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -402,7 +400,6 @@
 		BEF3DECB2C05D7D900671F19 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				BEF3DECC2C05D80400671F19 /* ObjectiveSocketIO.h */,
 				6EF927F1F88283A4967943AB1BFEDD73 /* SocketIO.swift */,
 			);
 			path = Source;
@@ -469,7 +466,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				889003D7FEBD400A85CE4D14ACE01D20 /* ObjectiveSocketIO-umbrella.h in Headers */,
-				BEF3DECD2C05D80400671F19 /* ObjectiveSocketIO.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
