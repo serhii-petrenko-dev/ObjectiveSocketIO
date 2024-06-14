@@ -151,6 +151,28 @@ public class SocketIO: NSObject {
   public func emit(event: String, string: String) {
     socket.emit(event, with: [string])
   }
+
+  @objc
+  public func emitWithAck(event: String, data: Array<Any>, ack: @escaping (Array<Any>) -> Void) {
+    var result = Array<Any>()
+    for i in (0...(data.count - 1)) {
+      let item = data[i]
+      if let itemData = (item as? String)?.data(using: .utf8) {
+        do {
+          let itemObject = try JSONSerialization.jsonObject(with: itemData, options: []) as? [String: Any]
+          result.append(itemObject as Any)
+        } catch {
+          print(error.localizedDescription)
+        }
+      } else {
+        result.append(item)
+      }
+    }
+
+    socket.emitWithAck(event, result).timingOut(after: 5) { data in
+        ack(data)
+    }
+  }
 }
 
 private extension UUID {
