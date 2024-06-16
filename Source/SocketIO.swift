@@ -155,9 +155,14 @@ public class SocketIO: NSObject {
     @objc
     public func emitWithAck(event: String, data: Array<Any>, ack: @escaping (Array<Any>) -> Void) {
         let dictionaryData = data.compactMap { $0 as? [String: Any] }
-
         socket.emitWithAck(event, with: dictionaryData).timingOut(after: 10) { data in
-            ack(data)
+            do {
+                let jsonData = try JSONSerialization.data(withJSONObject: data, options: .withoutEscapingSlashes)
+                let convertedString = String(data: jsonData, encoding: .utf8)
+                ack([convertedString])
+            } catch {
+                print(error.localizedDescription)
+            }
         }
     }
 
